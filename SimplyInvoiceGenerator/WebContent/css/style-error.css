@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  background-color: #455A64;
+  font-family: "Lato-Regular", Arial, sans-serif;
+  color:#fff;
+}
+
+@font-face {
+	font-family: "Lato-Regular";
+	src: url(../font/Lato-Regular.ttf) format("truetype");
+}
+
+h1 {
+  margin: auto;
+}

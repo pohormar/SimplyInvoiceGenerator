@@ -1,0 +1,244 @@
+
+.section-title{
+	  font-family: "Lato-Bold", Arial, sans-serif;
+	  font-weight: bold;
+	  font-size: 1.1em;
+	  color: #fff;
+}
+.center{
+	text-align: center;
+}
+.bold{
+	font-weight: bold;
+	color: #fff;
+	font-size: 1em;
+}
+.padding-left{
+	padding-left: 1em;
+}
+
+
+
+.padding-right{
+	padding-right: 1em;
+}
+.padding-top{
+	padding-top:2em;
+}
+
+
+@font-face {
+	font-family: "Lato-Regular";
+	src: url(../font/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "Lato-Bold";
+	src: url(../font/Lato-Bold.ttf) format("truetype");
+}
+
+
+@font-face {
+	font-family: "Merriweather-Bold";
+	src: url(../font/Merriweather-Bold.ttf) format("truetype");
+}
+
+
+
+table {font-size:12px;
+color:#455A64;
+width:100%;
+border-width: 1px;
+border-color: #CFD8DC;
+border-collapse: collapse;}
+
+table th {font-size:12px;
+background-color:#CFD8DC;
+border-width: 1px;padding: 8px;
+border-style: solid;
+border-color: #CFD8DC;
+text-align:left;}
+
+table tr {background-color:#607D8B; 
+color:#CFD8DC;}
+
+table td {font-size:12px;
+border-width: 1px;padding: 8px;
+border-style: solid;
+border-color: #CFD8DC;}
+
+button, input[type="submit"] {
+	background-color:#607D8B;
+		padding:6px 50px;
+		color:#ffffff;
+	 border: solid 3px #ffffff;
+	
+}
+
+button:hover, input[type="submit"]:hover,button, input[type="submit"]  {
+
+	   -webkit-transition-property: background;
+       -moz-transition-property: background;
+         -o-transition-property: background;
+            transition-property: background;
+            
+            -webkit-transition-property: border;
+       -moz-transition-property: border;
+         -o-transition-property: border;
+            transition-property: border;
+            
+    -webkit-transition-duration: 0.3s;
+       -moz-transition-duration: 0.3s;
+         -o-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    -webkit-transition-timing-function: linear;
+       -moz-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
+}
+
+button:active, input[type="submit"]:active {
+	position:relative;
+	top:1px;
+}
+
+button:hover, input[type="submit"]:hover {
+	border-color: #455A64;
+}
+
+ input[type="text"],  input[type="select"], select {
+  border: none;
+  border-bottom: solid 4px #CFD8DC;
+  transition: border 0.3s;
+    color: #455A64;
+}
+
+
+
+input[type="text"]:focus,
+input[type="text"].focus, select:focus{
+  border-bottom: solid 4px #455A64;
+}
+
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+border: none;
+  border-bottom: solid 4px #CFD8DC;
+  transition: border 0.3s;
+    color: #455A64;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  border-bottom: solid 4px #F64747;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
+
+.clear { clear: both; }
+
+.border-bottom{
+	border-bottom: #fff;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	margin-bottom: 20px;
+}
+
+
+.input-width-51
+{
+	width: 51%;
+}
+
+
+th {
+	color: #455A64;
+}
+
+
+
+
+@media print
+{    
+   .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.container{
+	height: auto;
+}
+
+body{
+  font-family: "Lato-Regular", Arial, sans-serif;
+  font-size: 14px;
+  color: #CFD8DC;
+  background-color: #455A64;
+}
+
+h1{ 
+	font-family: "Merriweather-Bold", Arial, serif;
+	border-bottom:solid;
+	color:#fff;
+	border-color: #CFD8DC;
+}
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #607D8B;
+  margin-top: 1em;
+   width: 750px;
+-webkit-box-shadow: 0px 2px 26px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 26px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 26px -4px rgba(0,0,0,0.75);
+}
+
+.input-width-80{
+	width: 80%;
+}
+.input-width-40{
+	width: 40%;
+}
+
+.input-width-100{
+	width: 100%;
+}
+
+
+.bc{
+background-color: #CDDC39;
+}
+
+.border-bottom{
+	
+	border-bottom: solid;
+}
+
+.space{
+height: 1em;
+}
