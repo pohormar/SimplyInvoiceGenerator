@@ -1,5 +1,6 @@
 # SimplyInvoiceGenerator
-Moja pierwsza aplikacja webowa oparta na serwletach.
+Example usage of java servlets as backend and javascript/bootstap as frondend.
 
-- Do poprawnego działania należy edytować plik persistance.xml.
-- Schemat bazy znajduje się w db/invoices_schema.sql
+# Example of use: 
+- create database by using schema db/invoices_schema.sql
+- edit database details in persistance.xml file
